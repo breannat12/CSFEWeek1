@@ -1,0 +1,46 @@
+body {
+    background-color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titleBar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:lightcoral;
+    color:white;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content:flex-start;
+}
+
+#bioContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    width: 49%;
+    margin-right: 2%;
+    margin-top: 2%;
+    flex-direction: column;
+    padding: 12px;
+}
+
+#bioContainer h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#picContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    width: 49%;
+    margin-top: 2%;
+}
+
+#picContainer img {
+    width: 80%;
+    height: auto;
+    padding: 12px;
+}
